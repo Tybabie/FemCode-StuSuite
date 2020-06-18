@@ -43,7 +43,7 @@ nav ul li a i{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 65vh;
     padding-top: 20vh;
     padding-left: 20px;
     color: white;
@@ -129,7 +129,7 @@ a{
  
  }
  .other nav ul li a i{
-     margin-right: 8px;
+     margin-right: 0px;
      }
  .other nav ul li a{
     text-decoration: none;
