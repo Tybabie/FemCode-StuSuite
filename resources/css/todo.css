@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+
+    background: linear-gradient( rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.884)), url('../images/todo.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+#h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -20px;
+}
+.todo{
+margin-left: 10px;
+margin-top: 30px;
+}
+.todo input{
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    border-radius:  8px 0px 0px  8px;
+    border: none;
+}
+.todo button{
+    padding: 10px;
+    outline: none;
+    width: 70px;
+    border-radius:  0px 8px 8px  0px;
+    border: none;
+    
+}
+.todo button:hover{
+    background-color: rgb(0, 174, 238);
+    color: white;
+    transition: 1s all;
+}
+#todos{
+    margin-top: 10px;
+}
+#links{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+div ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 174, 238);
+    transition: 1s all;
+    }
+div ul li a:hover{
+        color: rgb(17, 17, 235);
+        transition: 1s all;
+        }
+div ul li{
+        padding-top: 10px;
+    }
+img{
+    width: 250px;
+}
+footer p {
+    text-align: center;
+ padding: 20px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: rgba(255, 255, 255, 0.247);
+    position: relative;
+    margin-top:  23vh;
+    bottom: -15px;
+}
+@media only screen and (max-width: 768px){
+    img{
+        width: 200px;
+    }
+    #h1{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.884)), url('../images/book.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#div{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#div input{
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    border-radius:  8px 0px 0px  8px;
+    border: none;
+}
+#div button{
+    padding: 10px;
+    outline: none;
+    width: 90px;
+    border-radius:  0px 8px 8px  0px;
+    border: none;
+    
+}
+#div button:hover{
+    background-color: rgb(0, 174, 238);
+    color: white;
+    transition: 1s all;
+}
+#h1{
+    font-size: 50px;
+    margin-top: -20px;
+    text-align: center;
+}
+img{
+    width: 250px;
+}
+div#links{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+div#links ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 174, 238);
+    transition: 1s all;
+    }
+    div#links ul li a:hover{
+        color: rgb(17, 17, 235);
+        transition: 1s all;
+        }
+div#links ul li{
+        padding-top: 10px;
+    }
+    footer p {
+        text-align: center;
+     padding: 20px;
+        background-color: rgba(0, 0, 0, 0.171);
+        color: rgba(255, 255, 255, 0.247);
+        position: relative;
+        margin-top: 26vh;
+        bottom: -18px;
+    }
+    @media only screen and (max-width: 768px){
+        img{
+            width: 200px;
+        }
+        #h1{
+            margin-top: 10px;
+        }
+    }
