@@ -81,26 +81,53 @@ nav ul li a i{
     -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 102);
 	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 102);
     box-shadow: 0 8px 6px -6px rgb(0, 0, 102);
-     color: white;
+   
+}
+#expense a, #book a{
+    color: white;
 }
 #todo{
     background-color: white;
     -webkit-box-shadow: 0 8px 6px -6px white;
 	-moz-box-shadow: 0 8px 6px -6px white;
     box-shadow: 0 8px 6px -6px white;
+    
+}
+#todo a{
     color: black;
 }
 #book{
     background-color: rgb(0, 174, 238);
     -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 102);
 	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 102);
-    box-shadow: 0 8px 6px -6px rgb(0, 0, 102);
-    color: white;
+    box-shadow: 0px 8px 6px -6px rgb(0, 0, 102);
+   
 }
 a{
     text-decoration: none;
 }
-#expense:hover, #todo:hover, #book:hover {
+#expense button, #book button{
+padding: 10px;
+outline: none;
+border: none;
+border-radius:  10px 0px;
+background-color: rgba(0, 0, 102, 0.486);
+color: white;
+transition: 1s all;
+cursor: pointer;
+
+}
+#todo button{
+    padding: 10px;
+outline: none;
+border: none;
+border-radius:  10px 0px;
+background-color: rgba(0, 0, 102, 0.7);
+color: white;
+transition: 1s all;
+cursor: pointer;
+}
+#expense button:hover, #todo button:hover, #book button:hover {
     background-color: rgb(0, 0, 102);
     color: white;
     transition: 1s all;
