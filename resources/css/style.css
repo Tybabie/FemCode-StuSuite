@@ -118,11 +118,11 @@ cursor: pointer;
 
 }
 #todo button{
-    padding: 10px;
+padding: 10px;
 outline: none;
 border: none;
 border-radius:  10px 0px;
-background-color: rgba(0, 0, 102, 0.7);
+background-color: rgba(0, 0, 102, 0.468);
 color: white;
 transition: 1s all;
 cursor: pointer;
