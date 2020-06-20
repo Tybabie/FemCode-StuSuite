@@ -106,7 +106,7 @@ nav ul li a i{
 a{
     text-decoration: none;
 }
-#expense button, #book button{
+#expense button, #book button, #todo button{
 padding: 10px;
 outline: none;
 border: none;
@@ -117,16 +117,7 @@ transition: 1s all;
 cursor: pointer;
 
 }
-#todo button{
-padding: 10px;
-outline: none;
-border: none;
-border-radius:  10px 0px;
-background-color: rgba(0, 0, 102, 0.468);
-color: white;
-transition: 1s all;
-cursor: pointer;
-}
+
 #expense button:hover, #todo button:hover, #book button:hover {
     background-color: rgb(0, 0, 102);
     color: white;
